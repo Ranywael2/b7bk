@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بحبك يا تسوبوسلاي</title>
+    <style>
+        body, html {
+            height: 10000%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .spacer {
+            flex: 1; /* Fill remaining space */
+            margin: 0; /* Remove default margin */
+        }
+        .spacer:first-child {
+            overflow-y: scroll; /* Add scroll only to the first spacer */
+        }
+        p {
+            font-size: 36px; /* Adjust the font size as needed */
+            direction: rtl; /* Align text from right to left */
+            margin: 0; /* Remove default margin */
+        }
+    </style>
+</head>
+<body>
+    <p>بحبك</p>
+    <div class="spacer"></div>
+    <p> يا تسوبوسلاي</p>
+</body>
+</html>
